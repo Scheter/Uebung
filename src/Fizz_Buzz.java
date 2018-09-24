@@ -5,13 +5,13 @@ public class Fizz_Buzz {
 		for(int i = 1; i < 1001; i++ ){
 			if(divider3(i)){
 				System.out.println(i+"   Fizz");
-				if(i % 5==0){
+				if(divider5(i)){
 					System.out.println(i + "   Buzz");
 				}
 			}
 				else
 				{
-					if(i % 5 ==0){
+					if(divider5(i)){
 						System.out.println(i+"   Buzz");
 						
 					}
@@ -26,6 +26,11 @@ public class Fizz_Buzz {
 		if (i%3==0){ 
 			return true;
 		}else{return false;}
+		public static boolean divider5(int i){
+			if(i%5==0){
+				return true;
+			}
+			else{return false;}
 		}
 	}
 
