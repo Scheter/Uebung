@@ -25,7 +25,11 @@ public class Fizz_Buzz {
 	public static boolean divider3(int i){
 		if (i%3==0){ 
 			return true;
-		}else{return false;}
+		}return false; 
+		
+		
+	}
+		
 		public static boolean divider5(int i){
 			if(i%5==0){
 				return true;
