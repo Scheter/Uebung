@@ -1,8 +1,8 @@
 
 public class Glücksspiel {
 	 static boolean geschlecht = true;
-	 static int alter = 16;
-	 static String name = "Raoul";
+	 static int alter = 21;
+	 static String name = "Meghan";
 	 
 		public static void main(String[] args) {
 			if(alter < 18){
@@ -12,11 +12,12 @@ public class Glücksspiel {
 				System.out.println("Lieber Herr "+name +"!");
 				System.out.println("Sie haben  " +wuerfeln());
 			}else{
-				System.out.println("Liebe Frau"+ name +"!");
+				System.out.println("Liebe Frau  "+ name +"!");
 				System.out.println("Sie haben  " +wuerfeln());
 			}
 		
 		}
+		
 			
 		
 			public static String wuerfeln(){
@@ -30,3 +31,4 @@ public class Glücksspiel {
 	}
 
 }
+ //*HA:  https://wiki.freitagsrunde.org/Javakurs/Übungsaufgaben/Glücksspiel 

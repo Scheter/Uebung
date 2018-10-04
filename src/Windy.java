@@ -18,6 +18,7 @@ public class Windy {
 		if(kmh>100){
 			System.out.println("Windstärke:  ORKAN");
 		}}
+	
 		
 
 	
