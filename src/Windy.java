@@ -2,8 +2,9 @@ import java.util.Scanner ;
 public class Windy {
 	
 
+	private static Scanner s;
 	public static void main(String[] args) {
-		Scanner s = new Scanner(System.in);
+		s = new Scanner(System.in);
 		System.out.println("Hier kmh eingeben:  ");
 		int kmh = s.nextInt();
 		System.out.println("Knoten:      "+getknots(kmh));
