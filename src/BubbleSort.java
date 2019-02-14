@@ -1,6 +1,6 @@
 public class BubbleSort {
 	
-	static int[] A = {4,11,3,5,54,76,78,98,23,423,434,562,7,44,87,115,17,19};
+	static int[] A = {4,11,3,5,54,76,78,98,23,423,434,562,7,44,87,115,17,19,1};
 	static int temp;
 	static int counterselec = 0;
 	public static void main(String[] args) {
